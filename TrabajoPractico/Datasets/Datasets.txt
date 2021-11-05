@@ -1,0 +1,6 @@
+Pollution, death rates, and cost by energy sources
+https://www.kaggle.com/diegoandresm/pollution-and-death-rates-by-energy-sources
+
+Global warming/pollution by economic sector
+https://www.kaggle.com/diegoandresm/global-warmingpollution-by-economic-sector
+src: https://ourworldindata.org/emissions-by-sector
