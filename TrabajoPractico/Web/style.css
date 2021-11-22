@@ -1,3 +1,88 @@
-h1, h2 {
-  font-family: Lato;
+h1 {
+  /*background-color: rgb(0, 0, 0);*/
+  background-image: url(https://www-cdn.eumetsat.int/files/styles/16_9_large/s3/2021-10/airquality1.jpg?h=d1cb525d&itok=knf5OUYl);
+  color: floralwhite;
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+}
+h2 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  color: #000;
+  margin-top: 0;
+}
+h3 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+h4 {
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+}
+div.text {
+  font-family: Helvetica;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/*#contaminacion_pais {*/
+.plot-title,
+.text-title {
+  padding-top: 10px;
+}
+
+#vizSectorIndustrial_1 {
+  height: 400px;
+  margin-right: 350px;
+  margin-left: 150px;
+}
+
+#vizSectorIndustrial_2 {
+  height: 300px;
+  margin-right: 350px;
+  margin-left: 150px;
+}
+
+#vizSectorIndustrial_1,
+#vizSectorIndustrial_2,
+#vizPais,
+.slidecontainer {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*Slider*/
+.slider {
+  -webkit-appearance: none;
+  width: 45%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #0423aa;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04aa6d;
+  cursor: pointer;
 }
